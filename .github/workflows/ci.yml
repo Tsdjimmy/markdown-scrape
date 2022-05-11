@@ -8,3 +8,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: bahmutov/npm-install@v1
       - run: npm t
+      - name: Semantic Release 🚀
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

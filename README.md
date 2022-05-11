@@ -1,4 +1,4 @@
-# markdown-scrape
+# markdown-scrape [![ci](https://github.com/bahmutov/markdown-scrape/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/markdown-scrape/actions/workflows/ci.yml)
 
 > Converts Markdown text to Algolia records
 
