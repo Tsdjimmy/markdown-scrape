@@ -1,0 +1,24 @@
+{
+  "name": "markdown-scrape",
+  "version": "1.0.0",
+  "description": "Converts Markdown text to Algolia records",
+  "main": "src/parse.js",
+  "scripts": {
+    "test": "ava test/*.test.js",
+    "watch": "ava --watch test/*.test.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "markdown",
+    "scrape",
+    "algolia"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^4.2.0",
+    "prettier": "^2.6.2"
+  }
+}
