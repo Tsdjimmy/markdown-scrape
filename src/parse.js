@@ -59,7 +59,7 @@ function parse(markdown) {
       hierarchy = makeHierarchy(h1)
       records.push({
         type: 'lvl0',
-        content: null,
+        content: h1,
         hierarchy: clone(hierarchy),
       })
       return
@@ -71,7 +71,7 @@ function parse(markdown) {
       hierarchy.lvl1 = h2
       records.push({
         type: 'lvl1',
-        content: null,
+        content: h2,
         hierarchy: clone(hierarchy),
       })
       return
@@ -83,7 +83,7 @@ function parse(markdown) {
       hierarchy.lvl1 = h3
       records.push({
         type: 'lvl2',
-        content: null,
+        content: h3,
         hierarchy: clone(hierarchy),
       })
       return
